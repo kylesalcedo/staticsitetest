@@ -6,4 +6,11 @@ document.addEventListener("DOMContentLoaded", function () {
     menuButton.addEventListener("click", function () {
         menu.classList.toggle("show-menu");
     });
+
+    // Close the menu when clicking outside of it
+    document.addEventListener("click", function (e) {
+        if (!menu.contains(e.target) && !menuButton.contains(e.target)) {
+            menu.classList.remove("show-menu");
+        }
+    });
 });
