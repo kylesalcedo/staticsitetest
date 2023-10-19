@@ -1,3 +1,11 @@
+/* Set the background image with Matrix-like binary animation */
+body {
+    background-image: url('https://i.giphy.com/media/A06UFEx8jxEwU/giphy.webp'); /* Replace with your image URL */
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black; /* Set the background color to black */
+}
+
 /* Your existing styles ... */
 
 /* Dropdown menu styles */
