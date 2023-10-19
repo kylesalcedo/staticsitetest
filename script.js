@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Close the menu when clicking outside of it
     document.addEventListener("click", function (e) {
-        if (!menu.contains(e.target) && !menuButton.contains(e.target)) {
+        if (!menu.contains(e.target) && e.target !== menuButton) {
             menu.classList.remove("show-menu");
         }
     });
