@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    console.log("DOM content loaded"); // Add this line for testing
     const menuButton = document.getElementById("menu-button");
     const menu = document.getElementById("menu");
 
