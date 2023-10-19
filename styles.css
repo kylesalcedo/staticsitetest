@@ -1,58 +1,32 @@
-/* Apply a background with Matrix-like binary dropping */
-body {
-    background: black;
-    background-image: url('matrix-background.gif');
-    background-size: cover;
-    background-attachment: fixed;
-}
+/* Your existing styles ... */
 
-/* Style the header and navigation menu */
-header {
+/* Dropdown menu styles */
+#menu {
+    display: none;
+    position: absolute;
     background: rgba(0, 0, 0, 0.7);
-    padding: 10px 0;
-}
-
-nav ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    right: 0;
+}
+
+#menu li {
     text-align: right;
-    position: relative;
+    margin: 20px;
 }
 
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
+#menu li a {
     color: white;
     text-decoration: none;
-}
-
-/* Show the dropdown menu on hover */
-nav ul:hover #menu-button {
     display: block;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
     padding: 10px;
 }
 
-/* Hide the dropdown menu by default */
-#menu {
-    display: none;
+#menu-button {
+    cursor: pointer;
 }
 
-.show-menu {
+.show-menu #menu {
     display: block;
 }
-
-/* Style the dropdown menu links */
-#menu a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 5px 0;
-}
-
-/* ... Your existing styles ... */
