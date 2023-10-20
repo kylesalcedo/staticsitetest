@@ -37,7 +37,7 @@ body {
   float: right;
 }
 
-.active #menu {
+.show-menu #menu {
   display: block;
 }
 
