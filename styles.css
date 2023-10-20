@@ -8,7 +8,7 @@ body {
 
 #menu {
   display: none;
-  position: absolute;
+  position: fixed;
   background: gray;
   list-style: none;
   margin: 0;
