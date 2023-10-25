@@ -39,20 +39,15 @@ body, html {
   float: right;
 }
 
-.show-menu #menu {
-  display: block;
-}
-
 .icon-links {
   text-align: center;
 }
 
 .icon-links a {
     background-color: rgba(192, 192, 192, 0.5);
-    padding: 5px;  // Adjusted the padding for a better fit
+    padding: 2px;  
     margin: 5px;
-    border-radius: 50%;  // Made the background circular
+    border-radius: 50%; 
     text-decoration: none;
     color: #000;
-    line-height: 1.5; 
-}
+    line-height
