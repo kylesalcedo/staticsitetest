@@ -3,6 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const menu = document.getElementById("menu");
 
     menuButton.addEventListener("click", function () {
-        menu.classList.toggle("show-menu");
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
     });
 });
